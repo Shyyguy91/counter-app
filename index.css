@@ -1,9 +1,10 @@
 body {
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fbackground-pets%3Fimage_type%3Dillustration&psig=AOvVaw0T8_PCB_UtAXnAAU6ESzfi&ust=1739396690878000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCDxeHLvIsDFQAAAAAdAAAAABAE");
+    background-image: url("/dogs.background.webp");
     background-size: cover;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
+    height: 100vh;
 }
 
 h1 {
@@ -18,10 +19,11 @@ h2 {
 }
 
 button {
-    border: none;
+    border: solid black 1px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
+    text-shadow: 0 0 3px black;
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
@@ -29,10 +31,18 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
+    background: #b59b84;
 }
 
 #save-btn {
-    background: darkgreen;
+    background: #f3c9ab;
 }
 
+.container {
+    background-color: white;
+    max-width: 80%;
+    margin: auto;
+    border: solid black 2px;
+    border-radius: 5px;
+    opacity: 87%;
+}
